@@ -33,3 +33,8 @@ Open the command prompt and type as follows;
 2. Required libraries that ship with Basemap
 
     1) GEOS(Geometry Engine – Open Source) – Source code is included in the geos-3.3.3 directory. When building from source, it  must be built and installed separately from basemap.
+    
+    2) Cartographic Projections – Patched version automatically built into basemap.
+    
+3. Optional libraries : PIL(Python Imaging Library) is only needed for ‘bluemarble()’, ‘etopo()’, ‘shadedrelief()’ and ‘warpimage()’ instance methods.
+
