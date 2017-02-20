@@ -20,13 +20,13 @@ Find the code that install basemap package and execute it in command prompt.
 
 If you already have a Python environment set up, and you are using the conda package manager, you can get all packages by running
 
-    $ conda install -c anaconda basemap=1.0.7
+    conda install -c anaconda basemap=1.0.7
 
 If the above method does not work, go to the same link and select ‘files’ tab. Then download tar.bz2 file that matches with your computer’s bit and python version. When the download is complete, put the files into your python directory.
 
 Open the command prompt and type as follows;
 
-    $ pip install <your tar.bz2 file name>
+    pip install <your tar.bz2 file name>
 
 ### Platform restriction - Any
 
