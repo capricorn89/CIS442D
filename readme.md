@@ -75,11 +75,15 @@ Open the command prompt and type as follows;
 
 ## Other interesting or useful features
 - arcgisimage : connect ESRI (GIS mapping platform software company) server to download and plot the image file as background method
+
 - nightshade : distinguish the day and night time of area by drawing dark regions on the map for night time. 
+
 - barbs : plots wind barbs on the map 
+
 - creating a basic map in 3D :
 
     1) With using Axes3D class and the method called add_collection3d, it is possible to add geographical data into 3D mapping.
+    
     2) In Axes3D class, the method called bar3d draws 3D bars on 3D mapping.
 
     
