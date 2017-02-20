@@ -31,4 +31,5 @@ Open the command prompt and type as follows;
 ### Dependent libraries (http://matplotlib.org/basemap/users/installing.html)
 1. Requirements : matplotlib, numpy
 2. Required libraries that ship with Basemap
-   1) GEOS(Geometry Engine – Open Source) – Source code is included in the geos-3.3.3 directory. When building from source, it  must be built and installed separately from basemap.
+
+    1) GEOS(Geometry Engine – Open Source) – Source code is included in the geos-3.3.3 directory. When building from source, it  must be built and installed separately from basemap.
