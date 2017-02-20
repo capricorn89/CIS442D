@@ -18,4 +18,17 @@ Go to this link : https://anaconda.org/anaconda/basemap.
 Find the code that install basemap package and execute it in command prompt. 
 Currently, you can install package by typing in command prompt as follows;
 
-  $ conda install -c anaconda basemap=1.0.7
+    $ conda install -c anaconda basemap=1.0.7
+
+If the above method does not work, go to the same link and select ‘files’ tab. Then download tar.bz2 file that matches with your computer’s bit and python version. When the download is complete, put the files into your python directory.
+
+Open the command prompt and type as follows;
+
+    $ pip install <your tar.bz2 file name>
+
+### Platform restriction - Any
+
+### Dependent libraries (http://matplotlib.org/basemap/users/installing.html)
+1. Requirements : matplotlib, numpy
+2. Required libraries that ship with Basemap
+   1) GEOS(Geometry Engine – Open Source) – Source code is included in the geos-3.3.3 directory. When building from source, it  must be built and installed separately from basemap.
