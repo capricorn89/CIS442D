@@ -38,9 +38,8 @@ Open the command prompt and type as follows;
     
     2) Cartographic Projections – Patched version automatically built into basemap.
     
-3. Optional libraries : PIL(Python Imaging Library) is only needed for 
+3. Optional libraries : PIL(Python Imaging Library) is only needed for the following instance methods;
 
-        bluemarble() ‘etopo()’, ‘shadedrelief()’ and ‘warpimage()’ 
-        
- instance methods.
+        bluemarble() ‘etopo()’, ‘shadedrelief()’ ‘warpimage()’ 
+      
 
