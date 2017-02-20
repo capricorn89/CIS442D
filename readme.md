@@ -40,6 +40,6 @@ Open the command prompt and type as follows;
     
 3. Optional libraries : PIL(Python Imaging Library) is only needed for the following instance methods;
 
-        bluemarble() ‘etopo()’, ‘shadedrelief()’ ‘warpimage()’ 
+        bluemarble()  /  etopo()  /   shadedrelief()  /  warpimage()
       
 
