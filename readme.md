@@ -14,7 +14,8 @@ This 2D map projection feature can satisfy various needs, such as climate and we
 ## Installation
 
 ### How to get it
-- Go to this link : https://anaconda.org/anaconda/basemap. 
-- Find the code that install basemap package and execute it in command prompt. 
-- Currently, you can install package by typing in command prompt as follows;
-$ conda install -c anaconda basemap=1.0.7
+Go to this link : https://anaconda.org/anaconda/basemap. 
+Find the code that install basemap package and execute it in command prompt. 
+Currently, you can install package by typing in command prompt as follows;
+
+  $ conda install -c anaconda basemap=1.0.7
