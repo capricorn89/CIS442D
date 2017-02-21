@@ -1,6 +1,6 @@
 # CIS442D
 ## Advanced Business Analysis
-### Python tool project
+### Python tool project outline
 
 1. Motivation - one paragraph explaining the main objective of the library and the problem it is trying to solve
 
