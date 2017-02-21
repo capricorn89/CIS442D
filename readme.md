@@ -95,3 +95,10 @@ After several steps of data arrangement, the basemap library allows us to make g
 As a big advantage, the basemap library has linkage and accommodates with other essential libraries so that it can provide various functions that assist the reader to understand the main objective of the map. For instance, in our plotting home of the winner of the English Premier League, the reader can easily spot the winner’s home location in England by showing blue circle patch. In plotting the rate of endorsement of the President Barrack Obama, applying different color density enables the reader to capture the difference in the rate of endorsement for each state at once. Again, in our plotting earthquake at Haiti example, plotting point with red color helps the reader to figure out which area has high rate of phone call reporting during the earthquake at Haiti.
 Consequently, the basemap library is very useful and powerful library in plotting 2D map and mandatory to whom tries to simplify the complex raw data into graphical representation for better interpretation.
 
+## References
+- Basemap Matplotlib Toolkit 1.0.8 documentation (http://matplotlib.org/basemap/)
+- Anaconda (https://anaconda.org/anaconda/basemap)
+- Kaggle Dataset (https://www.kaggle.com/hugomathien/soccer)
+- McKinney, Wes. Python for data analysis: Data wrangling with Pandas, NumPy, and IPython. " O'Reilly Media, Inc.", 2012.
+- Federal Election Commission Dataset (http://www.fec.gov/disclosurep/PDownload.do)
+- Materials and IPython notebooks for "Python for Data Analysis" by Wes McKinney, published by O'Reilly Media (https://github.com/wesm/pydata-book)
