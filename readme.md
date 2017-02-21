@@ -60,7 +60,9 @@ Open the command prompt and type as follows;
 
 ### Platform restriction - Any
 
-### Dependent libraries (http://matplotlib.org/basemap/users/installing.html)
+### Dependent libraries 
+(http://matplotlib.org/basemap/users/installing.html)
+
 1. Requirements : matplotlib, numpy
 2. Required libraries that ship with Basemap
 
