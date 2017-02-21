@@ -1,7 +1,7 @@
 # Basemap Tutorial
 
 ## Motivation
-    The Basemap toolkit (URL: http://matplotlib.github.com/basemap/ ), an add-on to matplotlib, enables plotting 2D data on maps in Python. 
+The Basemap toolkit (URL: http://matplotlib.github.com/basemap/ ), an add-on to matplotlib, enables plotting 2D data on maps in Python. 
 The main objective of basemap toolkit is to provide globe projections by transforming projecting latitude and longitude coordinates on the globe onto a two-dimensional Matplotlib plot. 
 Contours, images, vectors, lines, or points can be plotted in Matplotlib, which is then used to display roads, shoreline, river, coastline, or any kinds of boundary datasets from various generic mapping tools such as ArcGIS mapping programming.
 Therefore, the basemap library can give desired map projection region in user-friendly manner. 
