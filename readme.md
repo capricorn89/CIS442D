@@ -18,27 +18,27 @@ This 2D map projection feature can satisfy various needs, such as climate and we
 - vincent: this takes Python data structures (tuples, lists, dicts, and Pandas DataFrames) and translates them into Vega visualization grammar. It allows for quick iteration of visualization designs via simple addition and subtraction of grammar elements, and outputs the final visualization to JSON.
 
 ### Essential library for geospatial problem solving
-•	pandas: For data handling and munging. This is tool for working with data in a spreadsheet-like format. 
-•	shapely: For geometry handling. This is the package for geometry handling and manipulation.
-•	rtree: For efficiently querying spatial data. This is a relatively simple spatial index package that speeds up spatial bounding box queries.
-•	nodebox-opengl: For creating and controlling animations. This package makes it easy to create some simple, interactive animations.
-•	statsmodels: For models and stats in Python. It enables user to use statistical approach in python.    
-•	numpy: For dataset in arrays. This is useful package for data analysis in python. 
-•	geopy: For geolocating addresses. It is a small wrapper around various web-based geocoding APIs.
-•	ipython: For interactive Python environment. It interacts with python in user-friendly manner.
-•	ogr/gdal: For reading, writing, and transforming geospatial data formats. This has ways to work with geospatial data, though fiona (see below) is nicer for reading and writing different geospatial formats.
-•	pyqgis: For anything and everything about GIS. This is the Python API for Quantum GIS. The user can work directly within QGIS via its intergrated Python console, or create standalone GIS apps.
-•	fiona: For making it easy to read/write geospatial data formats. It is for reading and writing GIS formats.
-•	matplotlib: For plotting needs. It does everything from scatterplots and histograms to choropleth maps to complex interactive visualizations.
-•	networkx: For working with networks. It is used for visualizing (integrates with matplotlib) and working with network data.
-•	pysal: For spatial econometrics needs (and more). This package covers everything from exploratory spatial data analysis (ESDA) right up to spatial econometric models.
-•	descartes: For plotting geometries in matplotlib. It is GeoJSON style data helper for matplotlib and shapely.
-•	geographiclib: For solving geodesic problems. It also converts between geographic, UTM, UPS, MGRS, geocentric, and local cartesian coordinates, and does geomagnetic field calculations.
-•	pyshp: For reading and writing shapefiles in pure Python.
-•	pyproj: For conversions between projections. This package provides an intuitive way of interacting with the Proj4 library for transforming data between coordinate reference systems.
-•	Seaborn: Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics
-•	Bokeh: Python interactive visualization library that targets modern web browsers for presentation. Its goal is to provide elegant, concise construction of novel graphics in the style of D3.js, and to extend this capability with high-performance interactivity over very large or streaming datasets. 
-•	VisPy: Python library for interactive scientific visualization that is designed to be fast, scalable, and easy to use.
+- pandas: For data handling and munging. This is tool for working with data in a spreadsheet-like format. 
+- shapely: For geometry handling. This is the package for geometry handling and manipulation.
+- rtree: For efficiently querying spatial data. This is a relatively simple spatial index package that speeds up spatial bounding box queries.
+- nodebox-opengl: For creating and controlling animations. This package makes it easy to create some simple, interactive animations.
+- statsmodels: For models and stats in Python. It enables user to use statistical approach in python.    
+- numpy: For dataset in arrays. This is useful package for data analysis in python. 
+- geopy: For geolocating addresses. It is a small wrapper around various web-based geocoding APIs.
+- ipython: For interactive Python environment. It interacts with python in user-friendly manner.
+- ogr/gdal: For reading, writing, and transforming geospatial data formats. This has ways to work with geospatial data, though fiona (see below) is nicer for reading and writing different geospatial formats.
+- pyqgis: For anything and everything about GIS. This is the Python API for Quantum GIS. The user can work directly within QGIS via its intergrated Python console, or create standalone GIS apps.
+- fiona: For making it easy to read/write geospatial data formats. It is for reading and writing GIS formats.
+- matplotlib: For plotting needs. It does everything from scatterplots and histograms to choropleth maps to complex interactive visualizations.
+- networkx: For working with networks. It is used for visualizing (integrates with matplotlib) and working with network data.
+- pysal: For spatial econometrics needs (and more). This package covers everything from exploratory spatial data analysis (ESDA) right up to spatial econometric models.
+- descartes: For plotting geometries in matplotlib. It is GeoJSON style data helper for matplotlib and shapely.
+- geographiclib: For solving geodesic problems. It also converts between geographic, UTM, UPS, MGRS, geocentric, and local cartesian coordinates, and does geomagnetic field calculations.
+- pyshp: For reading and writing shapefiles in pure Python.
+- pyproj: For conversions between projections. This package provides an intuitive way of interacting with the Proj4 library for transforming data between coordinate reference systems.
+- Seaborn: Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics
+- Bokeh: Python interactive visualization library that targets modern web browsers for presentation. Its goal is to provide elegant, concise construction of novel graphics in the style of D3.js, and to extend this capability with high-performance interactivity over very large or streaming datasets. 
+- VisPy: Python library for interactive scientific visualization that is designed to be fast, scalable, and easy to use.
 
 
 ## Installation
@@ -72,6 +72,7 @@ Open the command prompt and type as follows;
 
         bluemarble()  /  etopo()  /   shadedrelief()  /  warpimage()
 
+## Examples : Please refer to the 'Examples' Folder
 
 ## Other interesting or useful features
 - arcgisimage : connect ESRI (GIS mapping platform software company) server to download and plot the image file as background method
@@ -86,10 +87,9 @@ Open the command prompt and type as follows;
     
     2) In Axes3D class, the method called bar3d draws 3D bars on 3D mapping.
 
-    
+## Summary and personal assessment of the library
 
-
-
-
-
+After several steps of data arrangement, the basemap library allows us to make geographical mapping by transforming and plotting obtained longitude and latitude coordinates. As disadvantage, the basemap library requires the user to provide exact longitude and latitude coordinate in order to make correct globe projection. However, once the coordinates are known, the library is executed to draw actual 2D mapping including detailed boundaries of country and coastline, roads, and river based on datasets we provided. 
+As a big advantage, the basemap library has linkage and accommodates with other essential libraries so that it can provide various functions that assist the reader to understand the main objective of the map. For instance, in our plotting home of the winner of the English Premier League, the reader can easily spot the winner’s home location in England by showing blue circle patch. In plotting the rate of endorsement of the President Barrack Obama, applying different color density enables the reader to capture the difference in the rate of endorsement for each state at once. Again, in our plotting earthquake at Haiti example, plotting point with red color helps the reader to figure out which area has high rate of phone call reporting during the earthquake at Haiti.
+Consequently, the basemap library is very useful and powerful library in plotting 2D map and mandatory to whom tries to simplify the complex raw data into graphical representation for better interpretation.
 
